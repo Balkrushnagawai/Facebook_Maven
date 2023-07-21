@@ -24,7 +24,7 @@ public class TestClass_CreateNewPage {
 		createNewAcc.selectyearDropDown();
 		createNewAcc.clickOnGender();
 		createNewAcc.clickOnSignup();
-		
+		System.out.println();
 	}
 
 }
