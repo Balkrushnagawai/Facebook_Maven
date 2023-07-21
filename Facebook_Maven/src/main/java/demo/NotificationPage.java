@@ -13,7 +13,7 @@ public class NotificationPage {
 	
 	@FindBy (xpath="//div[contains(@class,'x1td3qas xjbqb8w')]")
 	private WebElement dotButton;
-	
+
 	public NotificationPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
